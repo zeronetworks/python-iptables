@@ -108,7 +108,8 @@ class xt_option_entry(ct.Structure):
                 ("ptroff", ct.c_uint),
                 ("size", ct.c_size_t),
                 ("min", ct.c_uint),
-                ("max", ct.c_uint)]
+                ("max", ct.c_uint),
+                ("base", ct.c_uint)]
 
 
 class _U1(ct.Union):
